@@ -2,7 +2,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.0'
 use_frameworks!
-target 'C:\Users\Mmartinez\Downloads\TestIonicProject\TestApp\platforms\ios\MyApp' do
+target 'MyApp' do
 	project 'MyApp.xcodeproj'
 	pod 'AppCenter', '~> 2.5.0'
 	pod 'AppCenter/Analytics', '~> 2.5.0'
